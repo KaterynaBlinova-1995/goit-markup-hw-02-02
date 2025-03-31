@@ -61,8 +61,8 @@ body {
   color: #434455;
   text-decoration: none;
 }
-.address-list-item:hover,
-.address-list-item:focus {
+.address-list-link:hover,
+.address-list-link:focus {
   color: #404bbf;
 }
 
