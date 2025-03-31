@@ -3,6 +3,7 @@ body {
   color: #434455;
   background-color: white;
   font-weight: 400;
+  font-style: normal;
 }
 
 .page-nav {
@@ -37,6 +38,13 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
+.nav-list-link:hover,
+.nav-list-link:focus,
+.nav-list-link:active {
+  text-decoration: underline;
+  color: #4d5ae5;
+}
+.nav-list-link,
 .address-list {
   list-style: none;
 }
@@ -49,6 +57,10 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+}
+.address-list-link:hover,
+.address-list-link:focus {
+  color: #4d5ae5;
 }
 .solutions {
   background-color: #2e2f42;
@@ -72,4 +84,105 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: white;
+}
+.benefits {
+  background-color: white;
+}
+.benefits-list {
+  list-style: none;
+}
+
+.benefits-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.benefits-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.team-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-list {
+  list-style: none;
+}
+
+.team-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+.team-hero {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.portfolio {
+  background-color: white;
+}
+.portfolio-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.portfolio-list {
+  list-style: none;
+}
+
+.portfolio-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.portfolio-heading-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.lastinfo {
+  background-color: #2e2f42;
+}
+.lastinfo-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  text-decoration: none;
+}
+
+.lastinfo-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
