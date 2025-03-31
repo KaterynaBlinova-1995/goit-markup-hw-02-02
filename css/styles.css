@@ -40,10 +40,9 @@ body {
   text-decoration: none;
 }
 .nav-list-link:hover,
-.nav-list-link:focus,
-.nav-list-link:active {
+.nav-list-link:focus {
   text-decoration: underline;
-  color: #4d5ae5;
+  color: #404bbf;
 }
 .nav-list-link,
 .address-list {
@@ -112,7 +111,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.team-list {
+.team {
   background-color: #f4f4fd;
 }
 .team-heading {
